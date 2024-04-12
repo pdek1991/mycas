@@ -1,0 +1,2 @@
+06-06-2023:11:56:05.225 INFO     Closing the Kafka producer with 0 secs timeout.
+06-06-2023:11:56:05.226 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.

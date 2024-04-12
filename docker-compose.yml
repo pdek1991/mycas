@@ -1,0 +1,83 @@
+
+version: '3.8'
+services:
+  sms-cas:
+    image: sms-cas
+    ports:
+      - 5000:5000
+    volumes:
+      - /root/mycas/SMS-CAS:/root/mycas/SMS-CAS
+    deploy:
+      replicas: 1
+    labels:
+      - "app=sms-cas"
+      - "cluster=mycas"
+    
+  
+  webapp:
+    image: webapp
+    ports:
+      - 8080:8080
+    volumes:
+      - /root/mycas/WEB-APP:/root/mycas/WEB-APP
+    deploy:
+      replicas: 1
+    labels:
+      - "app=webapp"
+      - "cluster=mycas"
+
+  emmg:
+    image: emmg
+    
+    volumes:
+      - /root/mycas/EMMG:/root/mycas/EMMG
+    deploy:
+      replicas: 1
+    labels:
+      - "app=emmg"
+      - "cluster=mycas"
+
+  cycler:
+    image: cycler
+   
+    volumes:
+      - /root/mycas/CYCLER:/root/mycas/CYCLER
+    deploy:
+      replicas: 1
+    labels:
+      - "app=cycler"
+      - "cluster=mycas"
+
+  client:
+    image: client
+   
+    volumes:
+      - /root/mycas/CLIENT:/root/mycas/CLIENT
+    deploy:
+      replicas: 1
+    labels:
+      - "app=client"
+      - "cluster=mycas"
+  
+  stb:
+    image: stb
+   
+    volumes:
+      - /root/mycas/STB:/root/mycas/STB
+    deploy:
+      replicas: 1
+    labels:
+      - "app=stb"
+      - "cluster=mycas"
+
+  schedular:
+    image: schedular
+   
+    volumes:
+      - /root/mycas/SCHEDULAR:/root/mycas/SCHEDULAR
+    deploy:
+      replicas: 1
+    labels:
+      - "app=schedular"
+      - "cluster=mycas"
+  

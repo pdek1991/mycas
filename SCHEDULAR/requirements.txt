@@ -1,0 +1,6 @@
+pyaes
+mysql-connector-python
+confluent-kafka
+kafka-python
+schedule
+prometheus-client

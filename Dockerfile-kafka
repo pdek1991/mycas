@@ -1,0 +1,18 @@
+FROM confluentinc/cp-kafka:latest
+
+# Copy custom configurations
+COPY server.properties /etc/kafka/server.properties
+COPY zookeeper.properties /etc/kafka/zookeeper.properties
+
+# Copy script to create Kafka topic
+COPY create-topic.sh /create-topic.sh
+
+# Expose Kafka and Zookeeper ports
+EXPOSE 9092 2181
+
+# Create Kafka topic and start Zookeeper and Kafka on container startup
+CMD ["/bin/bash", "-c", "/create-topic.sh && zookeeper-server-start /etc/kafka/zookeeper.properties & kafka-server-start /etc/kafka/server.properties"]
+
+###!/bin/bash
+# Create Kafka topic
+#/opt/kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topic_mycas

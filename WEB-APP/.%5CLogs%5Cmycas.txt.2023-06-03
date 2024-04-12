@@ -1,0 +1,35 @@
+04-06-2023:10:48:10.449 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: connecting to 192.168.56.112:9092 [('192.168.56.112', 9092) IPv4]
+04-06-2023:10:48:10.461 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: Connection complete.
+04-06-2023:10:48:10.463 INFO     <BrokerConnection node_id=bootstrap-0 host=192.168.56.112:9092 <connected> [IPv4 ('192.168.56.112', 9092)]>: Closing connection. 
+04-06-2023:10:48:10.589 INFO     Message sent to Kafka topic topic_mycas: 7070707070:70707070:from swarm:44:2023-06-13
+04-06-2023:10:48:10.702 INFO     message_id: 70707070, message_text: from swarm, device_id: 7070707070, expiry: 2023-06-13
+04-06-2023:10:52:41.051 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: connecting to 192.168.56.112:9092 [('192.168.56.112', 9092) IPv4]
+04-06-2023:10:52:41.061 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: Connection complete.
+04-06-2023:10:52:41.061 INFO     <BrokerConnection node_id=bootstrap-0 host=192.168.56.112:9092 <connected> [IPv4 ('192.168.56.112', 9092)]>: Closing connection. 
+04-06-2023:10:52:41.089 INFO     Message sent to Kafka topic topic_mycas: 7070707070:70707070:from swarm:44:2023-06-13
+04-06-2023:10:52:41.164 INFO     message_id: 70707070, message_text: from swarm, device_id: 7070707070, expiry: 2023-06-13
+04-06-2023:10:53:24.603 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: connecting to 192.168.56.112:9092 [('192.168.56.112', 9092) IPv4]
+04-06-2023:10:53:24.609 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: Connection complete.
+04-06-2023:10:53:24.610 INFO     <BrokerConnection node_id=bootstrap-0 host=192.168.56.112:9092 <connected> [IPv4 ('192.168.56.112', 9092)]>: Closing connection. 
+04-06-2023:10:53:24.628 INFO     Message sent to Kafka topic topic_mycas: 6060606069:606060:test from swarm:44:2023-05-29
+04-06-2023:10:53:24.694 INFO     message_id: 606060, message_text: test from swarm, device_id: 6060606069, expiry: 2023-05-29
+04-06-2023:10:53:43.594 INFO     Message sent to Kafka topic topic_mycas: 6060606069:606060:test from swarm:44:2023-05-29
+04-06-2023:10:53:43.712 INFO     message_id: 606060, message_text: test from swarm, device_id: 6060606069, expiry: 2023-05-29
+04-06-2023:10:53:45.994 INFO     Message sent to Kafka topic topic_mycas: 6060606069:606060:test from swarm:44:2023-05-29
+04-06-2023:10:53:46.067 INFO     message_id: 606060, message_text: test from swarm, device_id: 6060606069, expiry: 2023-05-29
+04-06-2023:10:55:31.326 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: connecting to 192.168.56.112:9092 [('192.168.56.112', 9092) IPv4]
+04-06-2023:10:55:31.333 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: Connection complete.
+04-06-2023:10:55:31.334 INFO     <BrokerConnection node_id=bootstrap-0 host=192.168.56.112:9092 <connected> [IPv4 ('192.168.56.112', 9092)]>: Closing connection. 
+04-06-2023:10:55:36.960 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: connecting to 192.168.56.112:9092 [('192.168.56.112', 9092) IPv4]
+04-06-2023:10:55:36.966 INFO     <BrokerConnection node_id=0 host=192.168.56.112:9092 <connecting> [IPv4 ('192.168.56.112', 9092)]>: Connection complete.
+04-06-2023:10:55:36.966 INFO     <BrokerConnection node_id=bootstrap-0 host=192.168.56.112:9092 <connected> [IPv4 ('192.168.56.112', 9092)]>: Closing connection. 
+04-06-2023:10:55:37.069 INFO     Closing the Kafka producer with 0 secs timeout.
+04-06-2023:10:55:37.069 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+04-06-2023:10:55:37.459 INFO     Closing the Kafka producer with 0 secs timeout.
+04-06-2023:10:55:37.459 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+04-06-2023:10:55:37.579 INFO     Closing the Kafka producer with 0 secs timeout.
+04-06-2023:10:55:37.580 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+04-06-2023:10:59:54.335 INFO     Closing the Kafka producer with 0 secs timeout.
+04-06-2023:10:59:54.335 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+04-06-2023:10:59:54.407 INFO     Closing the Kafka producer with 0 secs timeout.
+04-06-2023:10:59:54.408 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
